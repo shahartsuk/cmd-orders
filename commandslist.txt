@@ -1,0 +1,40 @@
+ date - update the date
+time - sets time 
+dir - shows Dir content
+cls - clear screen
+
+cd .. - back one dir
+cd “dir name” - gets into the dir
+md “dir name” - makes new dir
+
+cd\ - goes back to c:\
+
+cd\”dir name” - goes to c:\”file name”
+
+tree - shows all dir inside the correct file and all dir inside of them
+dir /? or help dir - shows all commands
+dir /p /o - sort files
+rmdir - remove dir
+rmdir /s “dir name” - deletes all tree
+
+dir > filename.txt - creates file name.txt file
+
+copy filename.txt c:\aaa - copies the file into aaa dir
+
+copy filename.txt c:\aaa\filename2.txt - copies the file into aaa and changes name into filename2.txt
+
+del filename.txt - deletes filename.txt
+move filename.txt c:\aaa - moves the file into c:\aaa
+type filename.txt - prints the content of the file
+attrib filename.txt - shows attribute
+attrib /? - shows all attribute commands
+attrib +R filename.txt - read only - cannot be deleted 
+attrib +h filename.txt - filename.txt will be hidden
+type a.txt > b.txt copies a data file into b
+dir *.txt - shows all txt files
+dir x*.txt - shows all files that start with x and are txt files
+
+dir x*.txt > file.txt - opens new file and copies all content of files that start with x into the new file
+
+dir x?3.txt - shows all files that start with 8 and ends with 3 and are txt files
+
